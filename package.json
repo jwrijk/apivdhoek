@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "coffee ./src/app.coffee"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,18 @@
   },
   "homepage": "https://github.com/jwrijk/apivdhoek#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "coffee-script": "^1.12.7",
+    "coffeescript": "^2.2.3",
+    "config": "^1.30.0",
+    "debug": "^3.1.0",
     "express": "^4.16.3",
-    "pi-pins": "^1.0.2"
+    "helmet": "^3.12.0",
+    "method-override": "^2.3.10",
+    "morgan": "^1.9.0",
+    "pi-pins": "^1.0.2",
+    "string": "^3.3.3",
+    "underscore": "^1.8.3",
+    "winston": "^2.4.1"
   }
 }
